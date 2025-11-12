@@ -1,0 +1,62 @@
+/* Base Reset */
+* {
+    background-image: none;
+    box-shadow: none;
+}
+
+/* Window Background */
+window {
+    background-color: rgba(1, 22, 39, 0.95); /* Deep navy w/ slight transparency */
+}
+
+/* Button Styling */
+button {
+    border-radius: 10px;
+    color: #d6deeb; /* Night Owl foreground text */
+    background-color: #011627;
+    border: 1px solid #5f7e97;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+/* Hover & Focus Effects */
+button:focus,
+button:active,
+button:hover {
+    background-color: #082f49; /* Slightly brighter navy */
+    border-color: #82aaff;
+    color: #82aaff;
+    outline: none;
+}
+
+/* Optional: active “pressed” feedback */
+button:active {
+    background-color: #0b3c5d;
+}
+
+/* Icons (default paths) */
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
+
