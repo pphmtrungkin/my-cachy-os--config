@@ -1,0 +1,81 @@
+# Theme: night-owl
+# By: ChatGPT (based on Night Owl by Sarah Drasner)
+
+# Main background — Night Owl dark navy
+theme[main_bg]="#011627"
+
+# Main foreground/text — Night Owl very light blue
+theme[main_fg]="#D6DEEB"
+
+# Title color for boxes — Light cream accent
+theme[title]="#E6B673"
+
+# Highlight color for keyboard shortcuts — Night Owl blue
+theme[hi_fg]="#82AAFF"
+
+# Background of selected item — soft highlight navy
+theme[selected_bg]="#1D3B53"
+
+# Foreground of selected item — bright foreground
+theme[selected_fg]="#D6DEEB"
+
+# Inactive/disabled text — desaturated gray-blue
+theme[inactive_fg]="#5F7E97"
+
+# Misc colors for process box (mini graphs, memory details) — Night Owl cyan
+theme[proc_misc]="#7FDBCA"
+
+# CPU box outline
+theme[cpu_box]="#5F7E97"
+
+# Memory/disks outline
+theme[mem_box]="#5F7E97"
+
+# Net box outline
+theme[net_box]="#5F7E97"
+
+# Process box outline
+theme[proc_box]="#5F7E97"
+
+# Divider line & small boxes line color — muted comment greenish-gray
+theme[div_line]="#637777"
+
+# Temperature graph colors
+theme[temp_start]="#ADDB67"  # Green accent
+theme[temp_mid]="#F78C6C"    # Orange accent
+theme[temp_end]="#FF6363"    # Red accent
+
+# CPU graph colors
+theme[cpu_start]="#82AAFF"   # Blue accent
+theme[cpu_mid]="#C792EA"     # Purple accent
+theme[cpu_end]="#FF2C83"     # Hot pink (invalid highlight)
+
+# Mem/Disk free meter
+theme[free_start]="#ADDB67"  # Green
+theme[free_mid]="#7FDBCA"    # Cyan
+theme[free_end]="#82AAFF"    # Blue
+
+# Mem/Disk cached meter
+theme[cached_start]="#FDD687" # Soft yellow
+theme[cached_mid]="#F78C6C"   # Orange
+theme[cached_end]="#FF6363"   # Red
+
+# Mem/Disk available meter
+theme[available_start]="#7FDBCA" # Cyan
+theme[available_mid]="#82AAFF"   # Blue
+theme[available_end]="#C792EA"   # Purple
+
+# Mem/Disk used meter
+theme[used_start]="#FF6363"   # Red
+theme[used_mid]="#FF2C83"     # Magenta/pink
+theme[used_end]="#F78C6C"     # Orange
+
+# Download graph colors
+theme[download_start]="#82AAFF"  # Blue
+theme[download_mid]="#7FDBCA"    # Cyan
+theme[download_end]="#ADDB67"    # Green
+
+# Upload graph colors
+theme[upload_start]="#FF2C83"    # Magenta/pink
+theme[upload_mid]="#FF6363"      # Red
+theme[upload_end]="#F78C6C"      # Orange
